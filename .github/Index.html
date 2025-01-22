@@ -1,0 +1,218 @@
+<!DOCTYPEhtml>
+<html lang ="en">
+<head>
+<meta char set="utf-8">
+<meta content="width=device-width, initial-scale=1.0"name="viewport">
+<title>Forecasting Feasts: A Culinary Journey into Restaurant	Revenue Prediction</title>
+<meta content=""name="description">
+<metacontent=""name="keywords">
+<!--Favicons-->
+<link href= "/static/assets/img/favicon.png"rel="icon">
+<linkhref="/static/assets/img/apple-touch-icon.png"rel="apple-touch-icon">
+<!--Fonts-->
+<linkhref="https://fonts.googleapis.com"rel="preconnect">
+<linkhref="https://fonts.gstatic.com"rel="preconnect"crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700; 900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+S
+C:wght@400;700&display=swap"rel="stylesheet">
+<!--VendorCSSFiles-->
+<linkhref="/static/assets/vendor/bootstrap/css/bootstrap.min.css"rel="stylesheet">
+<linkhref="/static/assets/vendor/bootstrap-icons/bootstrap-icons.css"rel="stylesheet">
+<linkhref="/static/assets/vendor/aos/aos.css"rel="stylesheet">
+<linkhref="/static/assets/vendor/glightbox/css/glightbox.min.css"rel="stylesheet">
+<linkhref="/static/assets/vendor/swiper/swiper-bundle.min.css"rel="stylesheet">
+<!--MainCSSFile-->
+<linkhref="/static/assets/css/main.css"rel="stylesheet">
+<!--CustomCSSforBackgroundImage-->
+<style>		body{	background-image: url('/static/assets/img/home.jpg');		background-size: cover;	background-position: center;	height: 100vh;
+}	hero {	display: flex;	justify- content: center;		align-items:
+center;	height: 100vh;	textalign: center;	color: white;
+background-color:rgba(0,0,0,0.5);
+}
+hero h1 { 
+fontsize:3em;
+ 
+marginbottom:
+0.5em;}herop{ fontsize: 1.5em;
+}
+</style>
+</head>
+<bodyclass="index-page">
+<headerid="header"class="headerd-flexalign-items-centersticky-top"><div class="container position-relative d-flex align-items-center justifycontentbetween">
+<ahref="/"class="logod-flexalign-items-centerme-autome-xl-0">
+<h1class="sitename">FeastForecast</h1>
+<span>.</span>
+</a>
+<navid="navmenu"class="navmenu">
+<ul>
+<li><ahref="#hero"class="active">Home</a></li>
+<li><ahref="#about">About</a></li>
+<li><ahref="#chefs">Chefs</a></li>
+<li><ahref="#contact">Contact</a></li>
+</ul>
+<iclass="mobile-nav-toggled-xl-nonebibi-list"></i>
+</nav>
+<aclass="btn-getstarted"href="/predict">PredictRevenue</a>
+</div>
+</header>
+<mainclass="main">
+<!--HeroSection-->
+<sectionid="hero"class="hero">
+<divclass="containertext-center">
+<h1><span	style="color:		#ffc107;">Welcome	to</span>	<span	style="color: #ffffff;">Forecasting	Feasts:A	Culinary		Journey		into		Restaurant
+RevenuePrediction</span></h1>
+<pclass="hero-description"style="color:#ffffff;">Whereculinaryartmeets predictive analytics to redefine restaurant management.</p>
+</div>
+</section>
+<!--/HeroSection-->
+<!--AboutSection-->
+<sectionid="about"class="aboutsection">
+<divclass="containersection-title"data-aos="fade-up">
+<h2>AboutOurRestaurant</h2>
+<p><span>Learn	More</span>	<span	class="description-title">About Us</span></p>
+</div>
+<divclass="container">
+<divclass="rowgy-4">
+<divclass="col-lg-12"data-aos="fade-up"data-aos-delay="100">
+<imgsrc="/static/assets/img/about.jpg"class="img-fluidmb-4"alt="Restaurant Interior">
+<divclass="content">
+<pclass="fst-italic">
+Welcome to our restaurant, where we delight in serving you exquisite meals prepared with passion and expertise.
+</p>
+<ul>
+<li><iclass="bibi-check-circle-fill"></i>Weprioritizequalityingredientsand exceptional culinary techniques.</li>
+<li><iclass="bibi-check-circle-fill"></i>Ourmenureflectsaharmonious blend of flavors and textures.</li>
+<li><iclass="bibi-check-circle-fill"></i>Experiencehospitalityatitsfinest with our attentive staff and cozy ambiance.</li>
+</ul>
+<p>Indulgeinadiningexperiencethatcelebratesfoodasanartform,whereevery dish tells a story of craftsmanship and dedication to gastronomy.</p>	</div>
+</div>
+</div>
+</div>
+</section>
+<!--/About Section-->
+<!—Chefs Section-->
+<sectionid="chefs"class="chefssection">
+<divclass="containersection-title"data-aos="fade-up">
+<h2>OurChefs</h2>
+<p><span>MeetOur</span><spanclass="description-title">Professional Chefs</span></p>
+</div>
+<divclass="container">
+<divclass="rowgy-4">
+<divclass="col-lg-6d-flexalign-items-stretch"data-aos="fade-up"dataaosdelay="100">
+<divclass="team-member">
+<divclass="member-img">
+<imgsrc="/static/assets/img/chefs/chefs-1.jpg"class="img-fluid"alt="Chef Walter White">
+ 
+<divclass="social">
+<ahref="#"><iclass="bibi-twitter"></i></a>
+<ahref="#"><iclass="bibi-facebook"></i></a>
+<ahref="#"><iclass="bibi-instagram"></i></a>
+<ahref="#"><iclass="bibi-linkedin"></i></a>
+</div>
+</div>
+<divclass="member-info">
+<h4>Walter White</h4>
+<span>MasterChef</span>
+<p>Knownforhisinnovativeapproach,Chef Walter White blend straditional flavors with modern techniques to create memorable dining experiences.</p>
+</div>
+</div>
+</div>
+<divclass="col-lg-6d-flexalign-items-stretch"data-aos="fade-up"dataaosdelay="200">
+<divclass="team-member">
+<divclass="member-img">
+<imgsrc="/static/assets/img/chefs/chefs-2.jpg"class="img-fluid"alt="Chef Sarah Johnson">
+<divclass="social">
+<ahref="#"><iclass="bibi-twitter"></i></a>
+<ahref="#"><iclass="bibi-facebook"></i></a>
+<ahref="#"><iclass="bibi-instagram"></i></a>
+<ahref="#"><iclass="bibi-linkedin"></i></a>
+</div>
+</div>
+<divclass="member-info">
+<h4>SarahJohnson</h4>
+<span>Patissier</span>
+ 
+<p>Pastry aficionado Sarah John son brings sweetness to our dishes with her mastery of desserts, ensuring every bite is a delight.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--/Chefs Section-->
+<!—Contact Section-->
+<section id="contact" class="contact section">
+<div class="container section-title" data-aos="fade-up">
+<h2>ContactUs</h2>
+<p><span>GetIn</span><spanclass="description-title">Touch</span></p>
+</div>
+<div class="container">
+<div class="rowgy-3">
+<div class="col-lg-3col-md-6d-flex">
+<I class="bibi-geo-alticon"></i>
+<div class="address">
+<h4>Address</h4>
+<p>A108AdamStreet,NewYork,NY535022</p>
+</div>
+</div>
+<div class="col-lg-3col-md-6d-flex">
+<I class="bibi- telephone icon"></i>
+<div>
+<h4>Contact</h4>
+<p>
+<strong>Phone:</strong>+155895548855<br>
+<strong>Email:</strong>info@example.com<br>
+</p>
+</div>
+</div>
+<div class="col-lg-3col-md-6d-flex">
+<I class="bibi-clockicon"></i>
+<div>
+<h4>OpeningHours</h4>
+<p>
+<strong>Mon-Sat:</strong><span>11AM-23PM</span><br>
+<strong>Sunday</strong>:<span>Closed</span>
+</p>
+</div>
+</div>
+
+<divclass="col-lg-3col-md-6">
+<h4>FollowUs</h4>
+<divclass="social-linksd-flex">
+<ahref="#"class="twitter"><iclass="bibi-twitter-x"></i></a>
+<ahref="#"class="facebook"><iclass="bibi-facebook"></i></a>
+<ahref="#"class="instagram"><iclass="bibi-instagram"></i></a>
+<ahref="#"class="linkedin"><iclass="bibi-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+<divclass="containercopyrighttext-centermt-4">
+<p>©<span>Copyright</span><strongclass="px-1sitename">Yummy</strong>
+<span>AllRightsReserved</span></p>
+<divclass="credits">
+<!--Allthelinksinthefootershouldremainintact.-->
+ 
+<!--Youcandeletethelinksonlyifyou'vepurchasedtheproversion. -->
+<!--Licensinginformation:https://bootstrapmade.com/license/-->
+<!--PurchasetheproversionwithworkingPHP/AJAXcontactform:[buy-url]-> Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+</div>
+</div>
+</footer>
+<!--ScrollTop-->
+<ahref="#"id="scroll-top"class="scroll-topd-flexalign-items-center justifycontentcenter"><i class="bi bi-arrow-up-short"></i></a>
+
+<!--Preloader-->
+<div id="pre loader"></div>
+<!—Vendor JS Files-->
+<scriptsrc="/static/assets/vendor/bootstrap/js/bootstrap.bundle.min
+.js"></script>
+<scriptsrc="/static/assets/vendor/php-email-form/validate.js"></script>
+<scriptsrc="/static/assets/vendor/aos/aos.js"></script>
+<scriptsrc="/static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<scriptsrc="/static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<scriptsrc="/static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!--MainJSFile-->
+<scriptsrc="/static/assets/js/main.js"></script>
+</body>
+</html>
